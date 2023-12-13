@@ -244,13 +244,20 @@ footer{
     padding: 0;
 }
 
+.list-footer div a:hover {
+    color: blue;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+
 .list-footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 10px;
-    box-sizing: border-box;
+    
 }
 
 .list-footer img {
@@ -295,38 +302,6 @@ footer div a{
         text-decoration: underline;
         list-style-type: circle;
         text-align: justify;
-    }
-
-    .grid-container{
-        grid-template-areas: 
-        "betular"
-        "texto1"
-        "palacio"
-        "texto2"
-        "bakeOff"
-        "texto3"
-        "local"
-        "texto4";
-
-        grid-template-columns: 97%;
-        grid-template-rows: 335px;
-        row-gap: 5px;
-    }
-
-    .grid-texto-1{
-        margin-top: 5px;
-        font-size: 16px;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 400;
-    }
-
-    .grid-container img{
-        margin-top: 2px;
-        border-radius: 10px;
-    }
-
-    .grid-titulo-1{
-        display: none;
     }
 
     /* FOOTER */
