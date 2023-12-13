@@ -1,0 +1,358 @@
+/*PARA PARRAFOS - font-family: 'Work Sans', sans-serif; */
+
+/* Selecciona cualquier <a> que ha sido visitado 
+a:visited {
+    color: green;
+  }
+*/
+
+/* SELECTOR UNIVERSAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+
+.nav-link:hover {
+    color: blue;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* IMAGEN  Y TITULO - BIENVENIDA */
+
+.titulo-one{
+    text-align: center;
+    background-image: url(../img/gastronomia-patisserie-destacada.jpg);;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.titulo-bienvenida {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 50px 20px 8px black;
+}
+
+/* PRESENTAION DE BETULAR */
+ .Container-principal{
+    border-radius: 5px;
+
+ }
+
+
+/* PRESENTACION QUIEN ES BETULAR - SEGUNDA FILA */
+
+.lista-ultima-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.lista-ultima-conteiner img{
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.lista-ultima-conteiner div{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+
+.lista-ultima-conteiner div p{
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+/* PRODUCTO */
+
+.title-producto{
+    animation-duration: 3s;
+    animation-name: slidein;
+    padding-top: 5px;
+    padding-left: 5%;
+    color: #97252B;
+    font-weight: 300;
+    text-decoration: underline;
+}
+      
+@keyframes slidein {
+    from {
+        
+        margin-left: 99%;
+        width: 200%;
+    }
+      
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.primera-lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card-body{
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.card-title{
+    color: #97252B;
+    font-weight: 600;
+}
+
+
+/* CONTACTO */
+
+.formulario div{
+    padding: 5px;
+    border-color: black;
+}
+.form-check{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 80%;
+    padding: 2px;
+}
+
+#exampleCheck1{
+    border-color: black;
+}
+
+.form-check-label{
+    padding: 2px;
+    margin-left: 8px;
+}
+.Buttom-form{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes slidein {
+    from {
+        
+        margin-left: 99%;
+        width: 200%;
+    }
+      
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.title-contactanos{
+    animation-duration: 3s;
+    animation-name: slidein;
+    padding-top: 5px;
+    padding-left: 45%;
+    color: #97252B;
+    font-weight: 500;
+    text-decoration: underline;
+    
+}
+
+/* GALERIA */
+
+.rounded{
+    width: 100%;
+}
+/* RRHH */
+
+.title-galeria{
+    animation-duration: 2s;
+    animation-name: slidein;
+    padding-top: 5px;
+    padding-left: 37%;
+    color: #97252B;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.title-galeria h2{
+    margin: 8px;
+    font-size: 25px;
+}
+
+.imagen-galeria{
+    background-image: url(../img/rrhh.jpg);
+    background-size: cover;
+    background-position: initial;
+    width: 100%;
+    padding: 170px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.titulo-cv{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 6px 7px 8px black;
+}
+
+.comentario-cv h2{
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1,25rem; 
+    color: #97252B;
+}
+
+
+/* FOOTER */
+
+
+footer{
+    background-color: #F3EEEA;
+    color: #776B5D;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.list-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.list-footer img {
+    width: 25px;
+}
+
+footer div a{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.list-footer-two{
+    padding: 10px;
+    text-decoration: underline;
+    box-sizing: border-box;
+}
+
+/* M. QUIERY */
+
+/* MOBILE */
+@media only screen and (max-width: 480px) {
+    body{
+        width: 100%;
+    }
+    
+    header img{
+        width: 15%; 
+    }
+
+    header{
+        
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+    }
+
+    header ul{
+        justify-content: space-between;
+        text-decoration: underline;
+        list-style-type: circle;
+        text-align: justify;
+    }
+
+    .grid-container{
+        grid-template-areas: 
+        "betular"
+        "texto1"
+        "palacio"
+        "texto2"
+        "bakeOff"
+        "texto3"
+        "local"
+        "texto4";
+
+        grid-template-columns: 97%;
+        grid-template-rows: 335px;
+        row-gap: 5px;
+    }
+
+    .grid-texto-1{
+        margin-top: 5px;
+        font-size: 16px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+    }
+
+    .grid-container img{
+        margin-top: 2px;
+        border-radius: 10px;
+    }
+
+    .grid-titulo-1{
+        display: none;
+    }
+
+    /* FOOTER */
+
+    .list-footer img {
+        border-radius: 5px;
+        width: 10%;
+        
+        
+    }
+
+    .list-footer {
+        align-items: flex-start;
+        align-content: flex-start;
+        justify-content: flex-start;
+        padding: 8px;
+        
+    }
+
+    footer div a{
+        font-size: 16px;
+        align-items: start;
+        margin-top: 7%;
+        
+    }
+
+}
+
+/* TABLET */
+
+/* DESKTOP */
