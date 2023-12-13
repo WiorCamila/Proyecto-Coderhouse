@@ -28,15 +28,15 @@ a:visited {
 
 .titulo-one{
     text-align: center;
-    background-image: url(../img/gastronomia-patisserie-destacada.jpg);;
+    background-image: url(../img/prueba-tres.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     padding: 40px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
+
 
 
 .titulo-bienvenida {
