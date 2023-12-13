@@ -16,6 +16,12 @@ a:visited {
 
 /* NAVBAR */
 
+.nav-link:hover {
+    color: blue;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 
 
 /* IMAGEN  Y TITULO - BIENVENIDA */
