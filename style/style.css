@@ -16,11 +16,7 @@ a:visited {
 
 /* NAVBAR */
 
-.nav-link:hover {
-    color: blue;
-    font-weight: 600;
-    text-decoration: underline;
-}
+
 
 /* IMAGEN  Y TITULO - BIENVENIDA */
 
@@ -48,10 +44,10 @@ a:visited {
 }
 
 /* PRESENTAION DE BETULAR */
+
  .Container-principal{
     border-radius: 5px;
-
- }
+}
 
 
 /* PRESENTACION QUIEN ES BETULAR - SEGUNDA FILA */
