@@ -1,0 +1,29 @@
+// RRHH
+
+/*RRHH*/
+
+.title-rrhh{
+    animation-duration: 2s;
+    animation-name: slidein;
+    padding-top: 5px;
+    color: $bordo;
+    font-weight: 600;
+    text-align: center;
+    
+    h2{
+        margin: 8px;
+        font-size: 25px;
+    }
+    
+}
+
+
+
+/* acepta terminos y condiciones en rrhh*/
+
+.form-check{
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+   
+}

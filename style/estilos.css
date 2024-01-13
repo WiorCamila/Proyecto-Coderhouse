@@ -1,0 +1,234 @@
+/*GENERAL*/
+/* SELECTOR UNIVERSAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h5 {
+  color: #97252B;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-link:hover {
+  color: blue;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* MAIN */
+.titulo-one {
+  text-align: center;
+  background-image: url(../img/prueba-tres.jpg);
+  background-size: cover;
+  background-position: bottom;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.titulo-one h1 {
+  font-family: "Mulish", sans-serif;
+  font-family: "Urbanist", sans-serif;
+  font-size: 4.5rem;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+  text-shadow: 50px 20px 8px black;
+}
+
+/*HOME*/
+.lista-ultima-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.lista-ultima-conteiner img {
+  border-radius: 10px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+.lista-ultima-conteiner p {
+  padding-top: 5px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.lista-ultima-conteiner div {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+}
+
+/*GALERIA*/
+.primera-lista-galeria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.primera-lista-galeria .card-body {
+  background-color: white;
+  border-radius: 10px;
+}
+.primera-lista-galeria .card-body h5 {
+  color: #97252B;
+  font-weight: 600;
+}
+
+/*PRODUCTOS*/
+.title-producto {
+  animation-duration: 3s;
+  animation-name: slidein;
+  padding-top: 5px;
+  padding-left: 5%;
+  color: #97252B;
+  font-weight: 300;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 99%;
+    width: 200%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.primera-lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-body {
+  background-color: white;
+  border-radius: 10px;
+}
+.card-body h5 {
+  color: #97252B;
+  font-weight: 600;
+}
+
+/*RRHH*/
+.title-rrhh {
+  animation-duration: 2s;
+  animation-name: slidein;
+  padding-top: 5px;
+  color: #97252B;
+  font-weight: 600;
+  text-align: center;
+}
+.title-rrhh h2 {
+  margin: 8px;
+  font-size: 25px;
+}
+
+/* acepta terminos y condiciones en rrhh*/
+.form-check {
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/*CONTACTO*/
+.title-contactanos {
+  animation-duration: 3s;
+  animation-name: slidein;
+  padding-top: 5px;
+  text-align: center;
+  color: #97252B;
+  font-weight: 500;
+}
+
+.form-check {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 80%;
+  padding: 2px;
+}
+.form-check input {
+  border-color: black;
+}
+.form-check label {
+  padding: 2px;
+  margin-left: 8px;
+}
+
+.Buttom-form {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 99%;
+    width: 20%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/* FOOTER */
+footer {
+  background-color: #F3EEEA;
+  color: #776B5D;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+footer .list-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+footer .list-footer img {
+  width: 25px;
+}
+footer .list-footer a {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+footer .list-footer a:hover {
+  color: blue;
+  font-weight: 200;
+  text-decoration: underline;
+}
+
+.list-footer-two {
+  padding: 10px;
+  text-decoration: underline;
+  box-sizing: border-box;
+}
+.list-footer-two a {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.list-footer-two a:hover {
+  color: blue;
+  font-weight: 200;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=estilos.css.map */

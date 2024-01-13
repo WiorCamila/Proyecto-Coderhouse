@@ -1,0 +1,61 @@
+// GENERAL.
+
+// VARIABLE
+$bordo: #97252B;
+
+/*GENERAL*/
+
+//MIXIN
+@mixin tamanio ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+
+/* SELECTOR UNIVERSAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5{
+    color: $bordo;
+}
+
+/* NAVBAR */
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link:hover {
+    color: blue;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+.titulo-one{
+    text-align: center;
+    background-image: url(../img/prueba-tres.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    h1{
+        font-family: 'Mulish', sans-serif;
+        font-family: 'Urbanist', sans-serif;
+        font-size: 4.5rem;
+        color: white;
+        font-weight: 400;
+        font-style: italic;
+        text-shadow: 50px 20px 8px black;
+    }
+}
+
+

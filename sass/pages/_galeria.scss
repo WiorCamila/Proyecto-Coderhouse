@@ -1,0 +1,21 @@
+// GALERIA
+
+/*GALERIA*/
+
+.primera-lista-galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .card-body{
+        background-color: white;
+        border-radius: 10px;
+
+        h5{
+            color: $bordo;
+            font-weight: 600;
+        }
+    }
+}
+
+
