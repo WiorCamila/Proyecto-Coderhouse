@@ -38,7 +38,6 @@ a:visited {
 }
 
 
-
 .titulo-bienvenida {
     font-family: 'Mulish', sans-serif;
     font-family: 'Urbanist', sans-serif;
@@ -116,13 +115,11 @@ a:visited {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .card-body{
     background-color: white;
     border-radius: 10px;
-
 }
 
 .card-title{
@@ -139,7 +136,6 @@ a:visited {
     text-align: center;
     color: #97252B;
     font-weight: 500;
-
 }
 
 
@@ -180,12 +176,12 @@ a:visited {
     }
 }
 
-
 /* GALERIA */
 
 .rounded{
     width: 100%;
 }
+
 /* RRHH */
 
 .title-rrhh{
@@ -202,17 +198,15 @@ a:visited {
     margin: 8px;
     font-size: 25px;
 }
+
 /* acepta terminos y condiciones en rrhh*/
+
 .form-check{
     margin-left: 0;
     display: flex;
     justify-content: center;
    
 }
-
-
-
-
 
 .titulo-cv{
     font-family: 'Mulish', sans-serif;
@@ -233,7 +227,6 @@ a:visited {
 
 
 /* FOOTER */
-
 
 footer{
     background-color: #F3EEEA;
@@ -256,7 +249,7 @@ footer{
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 10px;
-    
+
 }
 
 .list-footer img {
@@ -306,6 +299,7 @@ footer div a{
     }
     
     /* TERMINOS Y CONDICIONES Y BOTTOM EN RRH Y CONTACTO */
+    
     .form-check{
         margin-left: 0;
         display: flex;
