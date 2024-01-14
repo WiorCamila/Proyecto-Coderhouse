@@ -247,13 +247,13 @@ footer div a{
 
 /* M. QUIERY */
 
-/* MOBILE */
+/* MOBILE 
 @media only screen and (max-width: 480px) {
     body{
         width: 100%;
     }
 
-    /* MODIFICACION AL TITULO Y FONDO */
+    /* MODIFICACION AL TITULO Y FONDO 
     .titulo-one{
         padding: 15px
     }
@@ -263,7 +263,7 @@ footer div a{
         text-shadow: 5px 10px 10px black;
     }
 
-    /* MODIFICACION EN RRHH*/
+    /* MODIFICACION EN RRHH
     .title-rrhh{
         padding-left: 0;
         text-align: center;
@@ -273,7 +273,7 @@ footer div a{
         font-size: 20px;
     }
     
-    /* TERMINOS Y CONDICIONES Y BOTTOM EN RRH Y CONTACTO */
+    /* TERMINOS Y CONDICIONES Y BOTTOM EN RRH Y CONTACTO 
     
     .form-check{
         margin-left: 0;
@@ -281,7 +281,7 @@ footer div a{
         justify-content: center;
     }
 
-    /* MODIFICACION EN PRODUCTO */
+    /* MODIFICACION EN PRODUCTO 
     .title-producto{
         text-align: center;
         margin-bottom: 0px;
@@ -291,7 +291,7 @@ footer div a{
         font-size: 22px;
     }
 
-    /* MODIFICACION EN CONTACTO */
+    /* MODIFICACION EN CONTACTO 
     .title-contactanos{
         padding-left: 0;
         text-align: center;
@@ -305,7 +305,7 @@ footer div a{
     }
 
 
-    /* FOOTER */
+    /* FOOTER 
 
     .list-footer img {
         border-radius: 5px;
@@ -330,8 +330,7 @@ footer div a{
     .list-footer-two{
         padding: 5px;
     }
-
-}
+*/
 
 /* TABLET */
 
