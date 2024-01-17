@@ -3,11 +3,11 @@
 /*RRHH*/
 
 .title-rrhh{
+    animation-duration: 2s;
     padding-top: 5px;
-    color: $bordo;
+    color: #97252B;
     font-weight: 600;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     
     h2{
         margin: 8px;
@@ -16,7 +16,6 @@
     }
     
 }
-
 
 
 /* acepta terminos y condiciones en rrhh*/

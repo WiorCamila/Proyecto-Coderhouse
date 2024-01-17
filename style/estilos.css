@@ -90,9 +90,10 @@ header {
 
 /*PRODUCTOS*/
 .title-producto {
-  animation-duration: 3s;
-  padding-top: 5px;
-  padding-left: 5%;
+  display: flex;
+  justify-content: start;
+  margin-top: 1%;
+  margin-left: 3%;
   color: #97252B;
   font-weight: 300;
 }
@@ -114,11 +115,11 @@ header {
 
 /*RRHH*/
 .title-rrhh {
+  animation-duration: 2s;
   padding-top: 5px;
   color: #97252B;
   font-weight: 600;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .title-rrhh h2 {
   margin: 8px;
@@ -148,6 +149,7 @@ header {
 
 /*CONTACTO*/
 .title-contactanos {
+  animation-duration: 3s;
   padding-top: 5px;
   text-align: center;
   color: #97252B;
@@ -155,10 +157,9 @@ header {
 }
 
 .form-check {
+  margin-left: 0;
   display: flex;
-  justify-content: flex-start;
-  margin-left: 80%;
-  padding: 2px;
+  justify-content: center;
 }
 .form-check input {
   border-color: black;
@@ -223,17 +224,19 @@ footer .list-footer a:hover {
 }
 
 /* MOBILE */
-@media only screen and (max-width: 480px) {
-  body {
-    width: 100%;
-  }
+@media only screen and (max-width: 490px) {
   /* MODIFICACION AL TITULO Y FONDO */
   .titulo-one {
-    padding: 15px;
+    padding: 3px;
   }
-  .titulo-bienvenida {
-    font-size: 16px;
-    text-shadow: 5px 10px 10px black;
+  .titulo-one h1 {
+    font-size: 45px;
+    text-shadow: 8px 10px 5px black;
+  }
+  .title-producto {
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 0%;
   }
   /* MODIFICACION EN RRHH*/
   .title-rrhh {
@@ -297,7 +300,7 @@ footer .list-footer a:hover {
   }
 }
 /* DEKTOP */
-@media only screen and (min-width: 979px) {
+@media only screen and (min-width: 980px) {
   body {
     width: 100%;
   }

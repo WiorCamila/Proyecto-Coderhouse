@@ -5,12 +5,6 @@ $bordo: #97252B;
 
 /*GENERAL*/
 
-//MIXIN
-@mixin tamanio ($ancho, $alto){
-    width: $ancho;
-    height: $alto;
-}
-
 
 /* SELECTOR UNIVERSAL */
 *{

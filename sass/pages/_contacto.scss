@@ -3,17 +3,18 @@
 /*CONTACTO*/
 
 .title-contactanos{
+    animation-duration: 3s;
     padding-top: 5px;
     text-align: center;
-    color: $bordo;
+    color: #97252B;
     font-weight: 500;
 }
 
+
 .form-check{
+    margin-left: 0;
     display: flex;
-    justify-content: flex-start;
-    margin-left: 80%;
-    padding: 2px;
+    justify-content: center;
 
     input{
         border-color: black;
