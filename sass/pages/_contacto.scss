@@ -3,8 +3,6 @@
 /*CONTACTO*/
 
 .title-contactanos{
-    animation-duration: 3s;
-    animation-name: slidein;
     padding-top: 5px;
     text-align: center;
     color: $bordo;
@@ -30,17 +28,4 @@
 .Buttom-form{
     display: flex;
     justify-content: center;
-}
-
-@keyframes slidein {
-    from {
-        
-        margin-left:99%;
-        width: 20%;
-    }
-      
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
 }

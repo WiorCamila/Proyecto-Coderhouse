@@ -8,7 +8,7 @@
 }
 
 h5 {
-  color: 0;
+  color: #97252B;
 }
 
 /* NAVBAR */
@@ -55,7 +55,8 @@ header {
 }
 .lista-ultima-conteiner img {
   border-radius: 10px;
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(145deg, #c1c1c1, #e5e5e5);
+  box-shadow: 15px 9px 15px #b6b6b6, -20px -20px 14px #f6f6f6;
 }
 .lista-ultima-conteiner p {
   padding-top: 5px;
@@ -90,23 +91,12 @@ header {
 /*PRODUCTOS*/
 .title-producto {
   animation-duration: 3s;
-  animation-name: slidein;
   padding-top: 5px;
   padding-left: 5%;
   color: #97252B;
   font-weight: 300;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 99%;
-    width: 200%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 .primera-lista {
   display: flex;
   flex-direction: row;
@@ -124,29 +114,40 @@ header {
 
 /*RRHH*/
 .title-rrhh {
-  animation-duration: 2s;
-  animation-name: slidein;
   padding-top: 5px;
   color: #97252B;
   font-weight: 600;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .title-rrhh h2 {
   margin: 8px;
   font-size: 25px;
+  text-align: center;
 }
 
 /* acepta terminos y condiciones en rrhh*/
 .form-check {
-  margin-left: 0;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 80%;
+  padding: 2px;
+}
+.form-check input {
+  border-color: black;
+}
+.form-check label {
+  padding: 2px;
+  margin-left: 8px;
+}
+
+.Buttom-form {
   display: flex;
   justify-content: center;
 }
 
 /*CONTACTO*/
 .title-contactanos {
-  animation-duration: 3s;
-  animation-name: slidein;
   padding-top: 5px;
   text-align: center;
   color: #97252B;
@@ -172,16 +173,6 @@ header {
   justify-content: center;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 99%;
-    width: 20%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 /* FOOTER */
 footer {
   background-color: #F3EEEA;
@@ -241,7 +232,7 @@ footer .list-footer a:hover {
     padding: 15px;
   }
   .titulo-bienvenida {
-    font-size: 37px;
+    font-size: 16px;
     text-shadow: 5px 10px 10px black;
   }
   /* MODIFICACION EN RRHH*/
@@ -297,6 +288,29 @@ footer .list-footer a:hover {
   }
 }
 /* TABLET */
-/* DESKTOP */
+@media only screen and (max-width: 481px) and (max-width: 978px) {
+  body {
+    width: 100%;
+  }
+  .img-betular img {
+    padding: 7px;
+  }
+}
+/* DEKTOP */
+@media only screen and (min-width: 979px) {
+  body {
+    width: 100%;
+  }
+  .titulo-one {
+    padding: 10px;
+  }
+  .img-betular img {
+    width: 105%;
+    height: 100%;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */

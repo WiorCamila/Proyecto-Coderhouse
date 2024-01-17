@@ -3,9 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"   integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/style.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- SASS -->
     <link rel="stylesheet" href="../style/estilos.css">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Producto</title>
   </head>
 <body>
@@ -49,14 +55,14 @@
     
     <!-- PRIMERA LISTA DE PRODUCTO -->
     <main>
-        <section class="title-producto">
-            <h2>Nuestros productos.</h2>
+        <section class="title-producto" >
+            <h2 class="animate__animated animate__fadeInRight">Nuestros productos.</h2>
         </section>
 
-        <section class="d-flex justify-content-around p-2 container-fluid primera-lista">
+        <section class="d-flex justify-content-around p-2 container-fluid primera-lista" >
             <div class="p-2">
-                <div class="card" style="width: 17rem;">
-                  <img src="../img/avocado-palta.PNG" class="rounded" alt="avocado-frutas">
+                <div class="card" style="width: 17rem;" data-aos="zoom-out">
+                  <img class="zoom" src="../img/avocado-palta.PNG" class="rounded" alt="avocado-frutas" >
                     <div class="card-body">
                         <h5 class="card-title">Avocado toast.</h5>
                         <p class="card-text">Pan integral con semillas, tomate cherry, cream cheese, eneldo y vinagreta de sésamo.</p>
@@ -66,7 +72,7 @@
             </div>
 
             <div class="p-2">
-                <div class="card" style="width: 17rem;">
+                <div class="card" style="width: 17rem;" data-aos="zoom-out">
                   <img src="../img/caja-choco-tres.png" class="rounded" alt="bombones">
                     <div class="card-body">
                         <h5 class="card-title">Bombones.</h5>
@@ -77,7 +83,7 @@
             </div>
 
             <div class="p-2">
-                <div class="card" style="width: 17rem;">
+                <div class="card" style="width: 17rem;" data-aos="zoom-out">
                   <img src="../img/dark-forest.PNG" class="rounded" alt="dark-forest">
                     <div class="card-body">
                         <h5 class="card-title">Dark forest.</h5>
@@ -91,7 +97,7 @@
         <!-- SEGUNDA LISTA DE PRODUCTO -->
         <section class="d-flex justify-content-around p-2 container-fluid primera-lista">
             <div class="p-2">
-                <div class="card" style="width: 16rem;">
+                <div class="card" style="width: 17rem;" data-aos="zoom-out">
                   <img src="../img/chausson-de-manzana.png" class="rounded" alt="chausson-de-manzana">
                     <div class="card-body">
                         <h5 class="card-title">Chausson de Manzana.</h5>
@@ -102,7 +108,7 @@
             </div>
 
             <div class="p-2">
-                <div class="card" style="width: 16rem;">
+                <div class="card" style="width: 17rem;" data-aos="zoom-out">
                   <img src="../img/cookie-pistacho-frambuesas.jpg" class="rounded" alt="cookie-pistacho-frambuesas">
                     <div class="card-body">
                         <h5 class="card-title">Cookie.</h5>
@@ -113,7 +119,7 @@
             </div>
 
             <div class="p-2">
-                <div class="card" style="width: 16rem;">
+                <div class="card" style="width: 17rem;" data-aos="zoom-out">
                   <img src="../img/smore.PNG" class="rounded" alt="smore">
                     <div class="card-body">
                         <h5 class="card-title">Smore.</h5>
@@ -140,12 +146,12 @@
 
             <div>
                 <img src="../img/whatsapp-icon.png" alt="icon-whatsapp"> 
-                <a href="(+54) 911 3611 3900">(+54) 911 3611 3900</a>
+                <a target="_blank" href="https://web.whatsapp.com/">(+54) 911 3611 3900</a>
             </div>
 
             <div>
                 <img src="../img/gmail-icon.png" alt="icon-gmail"> 
-                <a href="rrhh@betular.com">rrhh@betular.com</a>
+                <a target="_blank" href="https://www.google.com/intl/es-419/gmail/about/">rrhh@betular.com</a>
             </div>
         </div>
 
@@ -172,5 +178,8 @@
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

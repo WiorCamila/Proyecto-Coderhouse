@@ -4,24 +4,10 @@
 
 .title-producto{
     animation-duration: 3s;
-    animation-name: slidein;
     padding-top: 5px;
     padding-left: 5%;
     color: $bordo;
     font-weight: 300;
-}
-
-@keyframes slidein {
-    from {
-        
-        margin-left:99%;
-        width: 200%;
-    }
-      
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
 }
 
 .primera-lista{
@@ -38,4 +24,4 @@
         color: $bordo;
         font-weight: 600;
     }
-}
+} 

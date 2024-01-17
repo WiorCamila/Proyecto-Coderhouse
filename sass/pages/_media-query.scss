@@ -1,4 +1,5 @@
 // MEDIA-QUERY.
+
 /* MOBILE */
 
 @media only screen and (max-width: 480px) {
@@ -9,10 +10,11 @@
     /* MODIFICACION AL TITULO Y FONDO */
     .titulo-one{
         padding: 15px
+        
     }
     
     .titulo-bienvenida{
-        font-size: 37px;
+        font-size: 16px;
         text-shadow: 5px 10px 10px black;
     }
 
@@ -90,4 +92,39 @@
 
 /* TABLET */
 
-/* DESKTOP */
+@media only screen and (max-width: 481px) and (max-width: 978px) {
+    body{
+        width: 100%;
+    }
+
+    .img-betular{
+        img{
+            padding: 7px;
+        }
+    }
+}
+
+
+/* DEKTOP */
+
+@media only screen and (min-width: 979px) {
+    body{
+        width: 100%;
+    }
+
+    .titulo-one{
+        padding: 10px
+    }
+
+    .img-betular{
+        img{
+            width: 105%;
+            height: 100%;
+        }
+    }
+    
+    .card-text{
+        font-size: 14px;
+    }
+}
+
