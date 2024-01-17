@@ -56,13 +56,13 @@ header {
 .lista-ultima-conteiner img {
   border-radius: 10px;
   background: linear-gradient(145deg, #c1c1c1, #e5e5e5);
-  box-shadow: 15px 9px 15px #b6b6b6, -20px -20px 14px #f6f6f6;
+  box-shadow: 15px px 15px #b6b6b6, -20px -20px 14px #f6f6f6;
 }
 .lista-ultima-conteiner p {
   padding-top: 5px;
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   font-style: normal;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   padding-left: 10px;
 }
@@ -309,7 +309,7 @@ footer .list-footer a:hover {
     height: 100%;
   }
   .card-text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
