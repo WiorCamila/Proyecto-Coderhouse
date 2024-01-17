@@ -224,7 +224,7 @@ footer .list-footer a:hover {
 }
 
 /* MOBILE */
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 480px) {
   /* MODIFICACION AL TITULO Y FONDO */
   .titulo-one {
     padding: 3px;
@@ -290,17 +290,8 @@ footer .list-footer a:hover {
     padding: 5px;
   }
 }
-/* TABLET */
-@media only screen and (max-width: 481px) and (max-width: 978px) {
-  body {
-    width: 100%;
-  }
-  .img-betular img {
-    padding: 7px;
-  }
-}
 /* DEKTOP */
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 979px) {
   body {
     width: 100%;
   }
