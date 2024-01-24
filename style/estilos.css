@@ -263,7 +263,14 @@ footer .list-footer a:hover {
     font-size: 45px;
     text-shadow: 8px 10px 5px black;
   }
+  /*  PRODUCTOS */
   .title-producto {
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 0%;
+  }
+  /* GALERIA */
+  .title-galeria {
     justify-content: center;
     margin-top: 2%;
     margin-left: 0%;
@@ -276,20 +283,6 @@ footer .list-footer a:hover {
   .title-rrhh h2 {
     font-size: 20px;
   }
-  /* TERMINOS Y CONDICIONES Y BOTTOM EN RRH Y CONTACTO */
-  .form-check {
-    margin-left: 0;
-    display: flex;
-    justify-content: center;
-  }
-  /* MODIFICACION EN PRODUCTO */
-  .title-producto {
-    text-align: center;
-    margin-bottom: 0px;
-  }
-  .title-producto h2 {
-    font-size: 22px;
-  }
   /* MODIFICACION EN CONTACTO */
   .title-contactanos {
     padding-left: 0;
@@ -300,6 +293,12 @@ footer .list-footer a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  /* TERMINOS Y CONDICIONES Y BOTTOM EN RRH Y CONTACTO */
+  .form-check {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
   }
   /* FOOTER */
   .list-footer {
