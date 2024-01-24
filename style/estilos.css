@@ -107,10 +107,15 @@ header {
 .card-body {
   background-color: white;
   border-radius: 10px;
+  padding: 8px;
 }
-.card-body h5 {
+.card-body h3 {
   color: #97252B;
-  font-weight: 600;
+  font-weight: 500;
+}
+.card-body p {
+  font-size: 17px;
+  margin: 3px;
 }
 
 /*RRHH*/

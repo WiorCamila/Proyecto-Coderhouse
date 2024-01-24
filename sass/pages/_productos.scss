@@ -22,9 +22,15 @@
 .card-body{
     background-color: white;
     border-radius: 10px;
+    padding: 8px;
 
-    h5{
+    h3{
         color: $bordo;
-        font-weight: 600;
+        font-weight: 500;
+    }
+
+    p{
+        font-size: 17px;
+        margin: 3px;
     }
 } 
