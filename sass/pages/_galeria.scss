@@ -2,6 +2,15 @@
 
 /*GALERIA*/
 
+.title-galeria {
+    display: flex;
+    justify-content: start;
+    margin-top: 1%;
+    margin-left: 3%;
+    color: $bordo;
+    font-weight: 300;
+}
+
 .primera-lista-galeria{
     display: flex;
     flex-direction: row;
@@ -10,10 +19,16 @@
     .card-body{
         background-color: white;
         border-radius: 10px;
+        padding: 8px;
 
-        h5{
+        h3{
             color: $bordo;
-            font-weight: 600;
+            font-weight: 500;
+        }
+
+        p{
+            font-size: 17px;
+            margin: 3px;
         }
     }
 }
