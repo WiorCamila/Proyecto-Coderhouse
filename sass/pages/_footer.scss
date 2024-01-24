@@ -42,17 +42,21 @@ footer{
     padding: 10px;
     text-decoration: underline;
     box-sizing: border-box;
-    a{
-        color: black;
-        font-family: 'Roboto', sans-serif;
-        text-decoration: none;
-        margin-bottom: 10px;
-        font-size: 18px;
-    }
 
-    a:hover {
-        color: blue;
-        font-weight: 200;
-        text-decoration: underline;
+    div{
+        margin: 8px;
+        a{
+            color: black;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        a:hover {
+            color: blue;
+            font-weight: 200;
+            text-decoration: underline;
+        }
     }
+    
 }

@@ -28,7 +28,12 @@
         display: flex;
         flex-direction: column;
         padding: 6px;
-    }
-
-    
+    }    
 }
+
+.card-body{
+    h2{
+        color: $bordo;
+    }
+}
+

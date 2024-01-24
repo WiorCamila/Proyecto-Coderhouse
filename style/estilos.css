@@ -73,6 +73,10 @@ header {
   padding: 6px;
 }
 
+.card-body h2 {
+  color: #97252B;
+}
+
 /*GALERIA*/
 .title-galeria {
   display: flex;
@@ -229,14 +233,16 @@ footer .list-footer a:hover {
   text-decoration: underline;
   box-sizing: border-box;
 }
-.list-footer-two a {
+.list-footer-two div {
+  margin: 8px;
+}
+.list-footer-two div a {
   color: black;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  margin-bottom: 10px;
   font-size: 18px;
 }
-.list-footer-two a:hover {
+.list-footer-two div a:hover {
   color: blue;
   font-weight: 200;
   text-decoration: underline;
