@@ -3,13 +3,22 @@
 /*CONTACTO*/
 
 .title-contactanos{
-    animation-duration: 3s;
+    animation-duration: 2s;
     padding-top: 5px;
     text-align: center;
     color: #97252B;
     font-weight: 500;
+
+    h2{
+        margin: 8px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+
 }
 
+/* acepta terminos y condiciones en rrhh*/
 
 .form-check{
     margin-left: 0;
