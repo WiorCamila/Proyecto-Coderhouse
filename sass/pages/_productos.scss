@@ -26,11 +26,16 @@
 
     h3{
         color: $bordo;
-        font-weight: 500;
+        font-size: 25px;
+        margin-left: 6px;
     }
 
     p{
         font-size: 17px;
-        margin: 3px;
+    }
+
+    .card-text{
+
+        margin: 8px;
     }
 } 
