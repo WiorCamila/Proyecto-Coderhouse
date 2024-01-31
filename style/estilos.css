@@ -299,9 +299,6 @@ footer .list-footer a:hover {
     font-size: 15px;
     align-items: start;
   }
-  .list-footer-two {
-    padding: 5px;
-  }
 }
 /* DEKTOP */
 @media only screen and (min-width: 979px) {
