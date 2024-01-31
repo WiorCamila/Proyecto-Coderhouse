@@ -237,26 +237,6 @@ footer .list-footer a:hover {
   text-decoration: underline;
 }
 
-.list-footer-two {
-  padding: 10px;
-  text-decoration: underline;
-  box-sizing: border-box;
-}
-.list-footer-two div {
-  margin: 8px;
-}
-.list-footer-two div a {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  font-size: 18px;
-}
-.list-footer-two div a:hover {
-  color: blue;
-  font-weight: 200;
-  text-decoration: underline;
-}
-
 /* MOBILE */
 @media only screen and (max-width: 480px) {
   /* MODIFICACION AL TITULO Y FONDO */
