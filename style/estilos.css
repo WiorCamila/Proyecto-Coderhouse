@@ -300,10 +300,31 @@ footer .list-footer a:hover {
     align-items: start;
   }
 }
+/* TABLET */
+@media only screen and (min-width: 481px) and (max-width: 978px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .titulo-one {
+    padding: 0px;
+  }
+  .titulo-one h1 {
+    text-shadow: 10px 9px 8px black;
+  }
+  /* FOOTER */
+  footer .list-footer {
+    flex-direction: column;
+  }
+  footer .list-footer div img {
+    padding-bottom: 2px;
+  }
+}
 /* DEKTOP */
 @media only screen and (min-width: 979px) {
   body {
     width: 100%;
+    height: 100%;
   }
   .titulo-one {
     padding: 10px;
